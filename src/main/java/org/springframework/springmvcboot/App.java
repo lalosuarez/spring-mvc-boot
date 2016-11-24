@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 @EnableAutoConfiguration
-@ComponentScan("org.springframework.springmvcboot")
+@ComponentScan()
 public class App 
 {
     public static void main( String[] args )
