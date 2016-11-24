@@ -1,0 +1,5 @@
+!.gitkeep
+node_modules/
+src/main/resources/static/bower_components/
+.DS_Store
+.vscode/
