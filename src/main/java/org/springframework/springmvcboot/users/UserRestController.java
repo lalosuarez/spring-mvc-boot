@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/restapi")
-public class UsersRestController {
+public class UserRestController {
 	
 	@Autowired
-	private UsersService usersService;
+	private UserService usersService;
 	
     @RequestMapping(value = "/users", method = RequestMethod.GET, produces = "application/json")
     public Collection<User> getUsers() {
