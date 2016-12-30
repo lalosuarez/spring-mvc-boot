@@ -12,6 +12,16 @@ angular.module('app.users', ['ngRoute'])
 	console.log('Users config loaded');
 }])
 
-.controller('UsersCtrl', function($scope) {
-    $scope.headingTitle = "User List";
-});
+.controller('UsersCtrl', ['$scope', 'UsersService', function($scope, UsersService) {
+
+	$scope.headingTitle = "Users List";
+	
+	UsersService.getAll().then(
+		function success(response) {
+			$scope.users = response.data;
+		},
+		function error(response) {
+			console.log('error response', response);
+		}
+	);
+}]);

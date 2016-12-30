@@ -9,7 +9,7 @@ public class MainController {
 
     @RequestMapping(value="/",method = RequestMethod.GET)
     public String index() {
-    	System.out.println("Main controller executed!");
+    	//System.out.println("Main controller executed!");
         return "app.html";
     }
     
