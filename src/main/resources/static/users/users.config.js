@@ -13,8 +13,6 @@ angular.module('app.users', ['ngRoute'])
 }])
 
 .controller('UsersCtrl', ['$scope', 'UsersService', function($scope, UsersService) {
-
-	$scope.headingTitle = "Users List";
 	
 	UsersService.getAll().then(
 		function success(response) {
