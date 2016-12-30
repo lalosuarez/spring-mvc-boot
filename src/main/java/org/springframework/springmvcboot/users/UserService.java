@@ -15,7 +15,7 @@ public class UserService {
         return (Collection<User>) userRepository.findAll();
     }
     
-    public void add(User obj) {
-    	userRepository.save(obj);
+    public User add(User obj) {
+    	return userRepository.save(obj);
     }
 }

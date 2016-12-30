@@ -21,7 +21,7 @@ public class UserRestController {
     }
     
     @RequestMapping(value = "/users", method = RequestMethod.POST, produces = "application/json")
-    public void add(@RequestBody User obj) {
-        usersService.add(obj);
+    public User add(@RequestBody User obj) {
+        return usersService.add(obj);
     }    
 }
