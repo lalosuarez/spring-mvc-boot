@@ -1,2 +1,6 @@
-org\springframework\springmvcboot\controller\MainController.class
+org\springframework\springmvcboot\users\UserRestController.class
+org\springframework\springmvcboot\users\UserService.class
 org\springframework\springmvcboot\App.class
+org\springframework\springmvcboot\users\UserRepository.class
+org\springframework\springmvcboot\main\MainController.class
+org\springframework\springmvcboot\users\User.class

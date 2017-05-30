@@ -1,4 +1,6 @@
-C:\Users\esuarez\Documents\workspace-neon\spring-mvc-boot\src\main\java\org\springframework\springmvcboot\restapi\UsersRestController.java
-C:\Users\esuarez\Documents\workspace-neon\spring-mvc-boot\src\main\java\org\springframework\springmvcboot\App.java
-C:\Users\esuarez\Documents\workspace-neon\spring-mvc-boot\src\main\java\org\springframework\springmvcboot\service\UsersService.java
-C:\Users\esuarez\Documents\workspace-neon\spring-mvc-boot\src\main\java\org\springframework\springmvcboot\controller\MainController.java
+C:\Users\Nokia\spring-mvc-boot\src\main\java\org\springframework\springmvcboot\users\User.java
+C:\Users\Nokia\spring-mvc-boot\src\main\java\org\springframework\springmvcboot\users\UserRestController.java
+C:\Users\Nokia\spring-mvc-boot\src\main\java\org\springframework\springmvcboot\main\MainController.java
+C:\Users\Nokia\spring-mvc-boot\src\main\java\org\springframework\springmvcboot\App.java
+C:\Users\Nokia\spring-mvc-boot\src\main\java\org\springframework\springmvcboot\users\UserRepository.java
+C:\Users\Nokia\spring-mvc-boot\src\main\java\org\springframework\springmvcboot\users\UserService.java
